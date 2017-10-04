@@ -5,15 +5,14 @@ Involves the creation of a database host application that interfaces with a back
 
 Functionality:
 
-1) Book Search and Availability 
+BOOK SEARCH AND AVAILABILITY
 One can search for a book, given any combination of ISBN, title, and/or Author(s). It then display the following in the search results:
-•	ISBN
-•	Book title
-•	Book author(s) (displayed as a comma separated list)
-•	Book availability (if the book currently checked out or not)
+•   ISBN
+•   Book title
+•   Book author(s) (displayed as a comma separated list)
+•   Book availability (if the book currently checked out or not)
 
-2) Book Loans
-
+BOOK LOANS
 Checking Out Books
 •	Can check out a book, given the combination of BOOK and BORROWER (Card number)
 •	The due date should be 14 days after the check out.
@@ -23,13 +22,12 @@ Checking Out Books
 Checking In Books
 •	Can check in a book using Book id, Card number, and/or any part of BORROWER name. A list of potential results and a button is displayed. One can select the appropriate entry to check in
 
-3) Borrower Management 
+BORROWER MANAGEMENT
 •	Can create new borrowers in the system using name, SSN, and address attributes.
 •	It automatically generates new card number for each new borrower and uses a compatible format with the existing borrower IDs.
 •	Borrowers are allowed to possess exactly one library card. If a new borrower is attempted with same SSN, then the system rejects and return an error message.
 
-4) Fines
-
+FINES
 •	Fines are assessed at a rate of $0.25/day (twenty-five cents per day).
 •	Fines table is updated every time we open the Fines window.
 •	There are two scenarios for late books
